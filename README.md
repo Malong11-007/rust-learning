@@ -17,6 +17,9 @@ Naming Conventions
 | Using "mut" to indicate mutable variables          | `let mut my_variable = 42;`                                                                                                  |
 | Using "ref" and "&" to pass variables by reference | `fn my_function(arg1: &u32, arg2: &str) -> bool { ... }`<br>`let my_variable = 42;`<br>`my_function(&my_variable, "Hello");` |
 
+file:///home/danyal/Pictures/Screenshots/Screenshot%20from%202023-04-06%2000-28-11.png![image](https://user-images.githubusercontent.com/40298510/230185244-1c605fa5-fd94-4aae-956c-ca0134c8c983.png)
+
+
 Concepts
 --------
 
