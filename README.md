@@ -145,3 +145,17 @@ fn main() {
     println!("The price of an orange is {}.", get_fruit_price(&orange, true));
 }
 ```
+
+-   In Rust, the opposite of the `push_str` function can be achieved by removing a specific substring from a `String`.
+-   To remove a substring from a `String` in Rust, you can use the `find` method to locate the starting index of the substring and then use `replace_range` to remove it.
+-   The `unicode-segmentation` crate in Rust provides functionality for working with graphemes, which are user-perceived characters that may consist of multiple Unicode code points.
+-   You can iterate over graphemes in a string using the `graphemes` method from the `UnicodeSegmentation` trait provided by the `unicode-segmentation` crate.
+-   The `time` crate in Rust provides functionality for working with dates, times, and durations.
+-   The `time` crate can be used for tasks such as getting the current local time, formatting and parsing time, and calculating durations.
+-   Adding seconds to a date in Rust using the `time` crate can be done by using the `OffsetDateTime` struct along with the `add` method.
+-   The `OffsetDateTime` struct represents a date and time with an offset from UTC, while the `PrimitiveDateTime` struct represents a date and time without an offset or time zone information.
+-   `OffsetDateTime` is suitable for scenarios involving time zones and offset calculations, while `PrimitiveDateTime` is suitable for working with local times.
+-   `OffsetDateTime` is aware of time zones and can accurately represent moments in time, including during daylight saving time transitions.
+-   `PrimitiveDateTime` lacks time zone information and relies on the system's time zone settings for conversions.
+
+
